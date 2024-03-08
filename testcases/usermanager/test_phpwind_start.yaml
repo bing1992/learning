@@ -1,0 +1,8 @@
+-
+  feature: 模块名
+  story: 论坛开始接口
+  title: 正常返回信息
+  request:
+    method: get
+    url: http://47.107.116.139/phpwind/
+  validate: null

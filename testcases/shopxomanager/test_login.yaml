@@ -1,0 +1,14 @@
+-
+  feature: 模块名
+  story: 登录接口
+  title: 正常登录信息
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    headers: null
+    params: {"s": "user/login"}
+    json: {"accounts": "baili1234",
+           "pwd": "baili123",
+           "verify": "rib5",
+           "type": "username"}
+  validate: null

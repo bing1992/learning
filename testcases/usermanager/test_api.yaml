@@ -1,0 +1,30 @@
+-
+  feature: 模块名1
+  story: 接口名1
+  title: 用例标题1用例标题1用例标题1
+  request:
+    method: 请求方法
+    url: 请求路径
+    headers: 请求头
+    data: 请求数据data
+  validate: null
+-
+  feature: 模块名2
+  story: 接口名2
+  title: 用例标题2用例标题2用例标题2
+  request:
+    method: 请求方法
+    url: 请求路径
+    headers: 请求头
+    data: 请求数据data
+  validate: null
+-
+  feature: 模块名3
+  story: 接口名3
+  title: 用例标题3用例标题3用例标题3
+  request:
+    method: 请求方法
+    url: 请求路径
+    headers: 请求头
+    data: 请求数据data
+  validate: null

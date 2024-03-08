@@ -1,0 +1,11 @@
+-
+  feature: 模块名
+  story: 商品详情接口
+  title: 返回正常商品信息
+  request:
+    method: post
+    url: http://101.34.221.219:8010/api.php
+    headers: null
+    params: {"s": "goods/detail"}
+    json: {"goods_id": "12"}
+  validate: null

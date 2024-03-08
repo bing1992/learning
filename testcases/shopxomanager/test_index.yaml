@@ -1,0 +1,10 @@
+-
+  feature: 模块名
+  story: 首页接口
+  title: 显示首页
+  request:
+    method: get
+    url: http://101.34.221.219:8010/api.php
+    headers: null
+    params: {"s": "index/index"}
+  validate: null

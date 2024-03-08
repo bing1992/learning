@@ -1,0 +1,9 @@
+-
+  feature: 模块名
+  story: 获取标签接口
+  title: 正常返回标签信息
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/tags/get
+    params: {"access_token": "access_token"}
+  validate: null

@@ -1,0 +1,13 @@
+-
+  feature: 模块名
+  story: 获取token接口
+  title: 正常返回token
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/token
+    params: {
+      "grant_type": "client_credential",
+      "appid": "wx046f10a7739485bb",
+      "secret": "ed11b9678745b3f61153ae31f9971f16"
+    }
+  validate: null

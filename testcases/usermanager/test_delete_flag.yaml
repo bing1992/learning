@@ -1,0 +1,10 @@
+-
+  feature: 模块名
+  story: 删除标签接口
+  title: 删除标签信息
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/tags/delete
+    params: {"access_token": "access_token"}
+    json: {"tag": {"id": 172}}
+  validate: null
